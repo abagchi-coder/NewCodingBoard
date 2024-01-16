@@ -13,7 +13,7 @@ int main(){
     
     new_sal = start_sal;
     for(cnt=1;cnt<=years;cnt++){
-        printf("Enter avreage hike for year no- %d: ",cnt);
+        printf("Enter avreage hike for year no: %d: ",cnt);
         scanf("%f",&avg_prcnt);
         
         new_sal = new_sal + new_sal*(avg_prcnt/100);
